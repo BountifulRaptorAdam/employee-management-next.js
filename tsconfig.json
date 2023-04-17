@@ -20,8 +20,13 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
-    }
+      "@/lib/*": ["./lib/*"],
+      "@/components/*": ["./components/*"],
+      "@/assets/*": ["./assets/*"],
+      "@/styles/*": ["./styles/*"],
+      "@/employer-components/*": ["./employer-components/*"],      
+      "@/worker-components/*": ["./worker-components/*"],
+     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
